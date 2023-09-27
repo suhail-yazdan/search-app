@@ -1,0 +1,141 @@
+{
+    "Buses": [
+      {
+        "serviceID": 1,
+        "serviceName": "SRS Travels",
+        "locations": ["RT101", "RT102", "RT103", "RT109", "RT110"]
+      },
+      {
+        "serviceID": 2,
+        "serviceName": "SRM Travels",
+        "locations": ["RT101", "RT102", "RT104"]
+      },
+      {
+        "serviceID": 3,
+        "serviceName": "Royal Travels",
+        "locations": ["RT101", "RT102", "RT103", "RT105"]
+      },
+      {
+        "serviceID": 4,
+        "serviceName": "Orange Travels",
+        "locations": ["RT103", "RT104", "RT105"]
+      },
+      {
+        "serviceID": 5,
+        "serviceName": "YBM Travels",
+        "locations": ["RT103", "RT104", "RT105", "RT106"]
+      }
+    ],
+    "Flights": [
+      {
+        "serviceID": 30,
+        "serviceName": "Indigo Airlines",
+        "locations": ["RT201", "RT202", "RT203", "RT210", "RT211"]
+      },
+      {
+        "serviceID": 31,
+        "serviceName": "Qatar Airways",
+        "locations": ["RT210", "RT211", "RT212"]
+      },
+      {
+        "serviceID": 32,
+        "serviceName": "Air India",
+        "locations": ["RT201", "RT202", "RT203", "RT212"]
+      },
+      {
+        "serviceID": 33,
+        "serviceName": "Air Asia",
+        "locations": ["RT201", "RT202", "RT203", "RT210", "RT211", "RT212"]
+      }
+    ],
+    "Hotels": [
+      {
+        "serviceID": 47,
+        "serviceName": "Hotel Mariott",
+        "locations": [
+          "Melbourne, Australia",
+          "Auckland, New Zealand",
+          "Dubai, UAE"
+        ]
+      },
+      {
+        "serviceID": 51,
+        "serviceName": "Hotel Daiwik",
+        "locations": ["Rameshwaram, India"]
+      },
+      {
+        "serviceID": 52,
+        "serviceName": "Hyatt Residency",
+        "locations": [
+          "Hyderabad, India",
+          "Chennai, India",
+          "Bengaluru, India",
+          "Mumbai, India"
+        ]
+      },
+      {
+        "serviceID": 53,
+        "serviceName": "Holiday Inn",
+        "locations": [
+          "Chennai, India",
+          "Bengaluru, India",
+          "Mumbai, India",
+          "Doha, Qatar"
+        ]
+      },
+      {
+        "serviceID": 54,
+        "serviceName": "The Oberoi",
+        "locations": [
+          "Mumbai, India",
+          "Pune, India",
+          "Hyderabad, India",
+          "Bali, Indonesia",
+          "Port Louis, Mauritius"
+        ]
+      },
+      {
+        "serviceID": 55,
+        "serviceName": "Ritz Carlton",
+        "locations": [
+          "Bengaluru, India",
+          "Vienna, Austria",
+          "Berlin, Germany",
+          "Naples, USA",
+          "Dallas, USA"
+        ]
+      }
+    ],
+    "Packages": ["Honeymoon", "Pilgrimage", "Vacation", "Business"],
+    "Destinations": {
+      "usa": ["New York", "Hawaai", "Chicago", "Naples", "Dallas"],
+      "india": [
+        "Agra",
+        "Bengaluru",
+        "Chennai",
+        "Coimbatore",
+        "Goa",
+        "Hyderabad",
+        "Jaipur",
+        "Jammu",
+        "Kolkata",
+        "Kochi",
+        "Maldives",
+        "Nagpur",
+        "New Delhi",
+        "Pune",
+        "Rameshwaram"
+      ],
+      "uae": ["Dubai"],
+      "qatar": ["Doha"],
+      "mauritius": ["Port Louis"],
+      "singapore": ["Jurong"],
+      "indonesia": ["Bali"],
+      "austria": ["Vienna"],
+      "germany": ["Berlin"],
+      "australia": ["Melbourne", "Sydney"],
+      "new zealand": ["Auckland"],
+      "switzerland": ["Geneva"]
+    }
+  }
+  
