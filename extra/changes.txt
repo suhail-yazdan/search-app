@@ -1,0 +1,23 @@
+
+- All the files I changed into functional component. Earlier it was as class component. As it is suggested from React that better to work with functional component and for state changes use 'useState' or 'useEffect'
+
+- In widget whenever we were clicking "search" button a function is called which is "handlesubmit()" from app.js. In this function earlier we were interacting directly with DOM like this -
+"let category = document.querySelector("input[type=radio]:checked").value;"
+
+It is recommended not to use I chaneged it with useState
+
+-In widget I created two variables 
+ selectedCategory
+ serchQuery
+these variables stores what category I slected and what string I am getting whenever anyone types on search input field
+
+- I changed hadleSearch in Widget.jsx and added two arguments 'sCat, sQuery'
+
+- inside handleSearch function I called onSubmit function with these two documents through props which is defined in App.js
+
+- in App.js I attached with handleSubmit with the arguments (cat, squery)
+- Inside this function I called makeAJAXcall(cat, squery) function and made results array empty
+
+- What ever the results were coming after AJAX call I collected in results and category variables and accordingly I iterated this data over Card component
+
+- Card component is almost changed only I changed this component from class component to functional components.
